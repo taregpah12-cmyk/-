@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Pro Gaming Arena</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Pro Gaming Arena </h1>
+<nav>
+<a href="index.html">الرئيسية</a>
+<a href="package.html">البطولة</a>
+<a href="choice.html">اختر لعبتك</a>
+<a href="booking.html">التسجيل</a>
+<a href="compare.html">مقارنة</a>
+<a href="gallery.html">المعرض</a>
+<a href="contact.html">تواصل</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>ادخل عالم البطولات 🔥</h2>
+<p>سجل ونافس أفضل اللاعبين</p>
+<button onclick="showMessage()">ابدأ الآن</button>
+</section>
+
+<section class="info">
+<p>📍 السعودية</p>
+<p>📞 0500000000</p>
+<p>📧 gaming@arena.com</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
