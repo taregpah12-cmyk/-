@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>مقارنة البطولات</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header><h1>مقارنة البطولات 📊</h1></header>
+
+<section class="compare">
+
+<table>
+<tr>
+<th>اللعبة</th>
+<th>الرسوم</th>
+<th>المدة</th>
+<th>الجائزة</th>
+<th>مناسبة لمن</th>
+</tr>
+
+<tr>
+<td>Valorant</td>
+<td>100</td>
+<td>يومين</td>
+<td>5000</td>
+<td>محترفين</td>
+</tr>
+
+<tr>
+<td>FIFA</td>
+<td>50</td>
+<td>يوم</td>
+<td>1000</td>
+<td>الكل</td>
+</tr>
+
+<tr>
+<td>Fortnite</td>
+<td>80</td>
+<td>يومين</td>
+<td>3000</td>
+<td>محبي الأكشن</td>
+</tr>
+
+</table>
+
+</section>
+
+</body>
+</html>
