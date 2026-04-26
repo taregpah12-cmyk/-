@@ -1,0 +1,48 @@
+function showMessage() {
+    window.location.href = "booking.html";
+}
+
+function selectPackage() {
+    window.location.href = "booking.html";
+}
+
+function choose(game, price) {
+    localStorage.setItem("game", game);
+    localStorage.setItem("price", price);
+    window.location.href = "booking.html";
+}
+
+window.onload = function() {
+    let savedPrice = localStorage.getItem("price");
+
+    if (savedPrice) {
+        let select = document.getElementById("destination");
+
+        for (let i = 0; i < select.options.length; i++) {
+            if (select.options[i].value == savedPrice) {
+                select.selectedIndex = i;
+            }
+        }
+    }
+};
+
+function validateForm() {
+    window.location.href = "index.html";
+}
+
+    
+
+
+function calculatePrice() {
+    let players = document.getElementById("players").value;
+    let price = document.getElementById("destination").value;
+
+    let total = players * price;
+    document.getElementById("total").innerText =
+    "الإجمالي: " + total + " ريال 💰";
+}
+
+function sendMessage() {
+    window.location.href = "index.html";
+  
+}
