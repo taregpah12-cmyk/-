@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>التسجيل</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header><h1>التسجيل في البطولة 🏆</h1></header>
+
+<section class="booking">
+
+<form onsubmit="return validateForm()">
+
+<input type="text" id="name" placeholder="اسم اللاعب" required>
+<input type="email" id="email" placeholder="البريد الإلكتروني" required>
+<input type="text" id="phone" placeholder="رقم الجوال" required>
+<input type="number" id="players" placeholder="عدد اللاعبين" required>
+
+<select id="destination">
+<option value="">اختر اللعبة</option>
+<option value="100">Valorant</option>
+<option value="50">FIFA</option>
+<option value="80">Fortnite</option>
+</select>
+
+<input type="date" required>
+
+<button type="button" onclick="calculatePrice()">احسب السعر</button>
+<p id="total"></p>
+
+<button type="submit">تأكيد التسجيل</button>
+
+</form>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
