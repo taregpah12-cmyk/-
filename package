@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>تفاصيل البطولة</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header><h1>تفاصيل البطولة 🎮</h1></header>
+
+<section class="package">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542751371-adc38448a05e">
+
+<div class="content">
+<h2>بطولة Valorant</h2>
+
+<p>🎮 اللعبة: Valorant</p>
+<p>⏱ المدة: يومين</p>
+<p>💰 الرسوم: 100 ريال</p>
+<p>🏆 الجائزة: 5000 ريال</p>
+<p>👥 النوع: فرق</p>
+
+<button onclick="selectPackage()">اختيار البطولة</button>
+</div>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
