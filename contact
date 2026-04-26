@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>تواصل</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header><h1>تواصل معنا 📞</h1></header>
+
+<section class="contact">
+
+<form onsubmit="return sendMessage()">
+<input type="text" required placeholder="اسمك">
+<input type="email" required placeholder="إيميلك">
+<textarea placeholder="رسالتك"></textarea>
+<button type="submit">إرسال</button>
+</form>
+
+<div class="info">
+<p>📍 السعودية</p>
+<p>📞 0500000000</p>
+<p>📧 gaming@arena.com</p>
+</div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
